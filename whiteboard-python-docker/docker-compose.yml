@@ -1,8 +1,0 @@
-services:
-  whiteboard:
-    build: .
-    container_name: whiteboard-phyton-docker
-    ports:
-      - "8001:8000"
-    volumes:
-      - ./app:/code/app
